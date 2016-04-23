@@ -1,6 +1,6 @@
 import {App, Platform} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
-import {TabsPage} from './pages/tabs/tabs';
+import {QuestionsPage} from './pages/questions/questions';
 
 
 @App({
@@ -13,7 +13,7 @@ export class MyApp {
   }
 
   constructor(platform) {
-    this.rootPage = TabsPage;
+    this.rootPage = QuestionsPage;
 
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
